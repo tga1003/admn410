@@ -1,0 +1,62 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	font: 10pt/1.5em Garamond,Baskerville,"Baskerville Old Face", "Hoefler Text", sans-serif;
+	background: url(pets.jpg);
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+}
+nav{
+}
+footer{
+	clear:both;
+	width:890px;
+	height: 100px;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970;border-radius: 20px;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;   
+}
+li a:hover:not(.active) {
+	background-color: #D3D3D3;
+}
+.active {
+	background-color: #4CAF50;   
+}
+h1 {
+	font-size: 40px;
+	font-family:Garamond,Baskerville,"Baskerville Old Face", "Hoefler Text", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+h2 {
+	font-size: 30px;
+	font-family:Garamond,Baskerville,"Baskerville Old Face", "Hoefler Text", sans-serif;
+	text-align: center;
+	color: #000000;
+}
+h3 {
+	font-size: 20px;
+	font-family: Garamond,Baskerville,"Baskerville Old Face", "Hoefler Text", sans-serif;
+	text-align: center;
+	color: #000000;
+}
+#content-images {
+	height:100px;
+	width:100px;
+}
